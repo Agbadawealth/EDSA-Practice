@@ -1,0 +1,65 @@
+body {
+    background: url(../week-5-form-assignment/asset/untitled-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.REGISTRATIONBox {
+    background: rgb(5, 37, 250, 0.3);
+    padding: 40px;
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 180px;
+    margin: 0 auto;
+
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 8;
+    text-underline-position: 2px;
+    cursor: pointer;
+}
+
+form {
+
+    width: 240px;
+    text-align: center;
+    margin-top: -10;
+
+}
+
+input {
+    width: 249px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 18px;
+    font-weight: 200px;
+    padding: 5px 0;
+    /* transition:border 0.5s; */
+    transition: transform 0.25s ease-out;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    outline: none;
+    height: 25px;
+    margin: 0 auto;
+
+}
+
+button {
+    border: none;
+    width: 190px;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}

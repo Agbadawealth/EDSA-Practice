@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Shantell Sans', cursive;
+    color: white;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 250;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+}
+
+.navbar {
+    background-color: purple;
+    height: 70px;
+    padding: 0 30px;
+}
+
+.navbar h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0 10px;
+    line-height: 1.2;
+}
+
+.navbar h1:hover {
+    cursor: pointer;
+}
+
+.navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    padding: 8px;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    color: grey;
+    border-bottom: 4px solid grey;
+}
+
+.showcase {
+    height: 400px;
+    background-color: purple;
+}
+
+.grid {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+@media only screen and (max-width:768px) {
+    .grid {
+        display: block;
+        overflow: hidden;
+    }
+}
+
+.showcase p {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width:768px) {
+    .showcase p {
+        margin-bottom: 0;
+    }
+}
+
+.showcase img {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5)
+}
+
+.intro-form {
+    padding-left: 8px;
+    margin: auto;
+}
+
+.sub-info {
+    font-size: 14px;
+    font-family: "poppin", sans-serif;
+}
+
+.grid-right,
+.grid-left {
+    position: relative;
+    top: 50px;
+}
+
+.showcase input[type="email"] {
+    padding: 10px 70px 10px 6px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn {
+    border-radius: 6px;
+    padding: 12px 20px;
+    background: #9867C5;
+    border: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3)
+}
+
+.courses {
+    margin-top: 250px;
+    height: 200px;
+}
+
+@media only screen and (max-width:768px) {
+    .courses {
+        height: auto;
+    }
+}
+
+.column-one,
+.column-two,
+.column-three {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 8px;
+    color: #474749;
+    letter-spacing: 0.2px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    column-gap: 10px;
+    width: 100%;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+.grid-one {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+}
+
+@media only screen and (max-width:768px) {
+    .grid-one {
+        display: block;
+    }
+}
+
+.icon-item {
+    color: purple;
+    width: 250px;
+    font-size: 40px;
+    margin-left: 230px;
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .grid-one {
+        display: grid;
+        grid-template-columns: 100px;
+        column-gap: 50px;
+    }
+
+    .title {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: left;
+        width: 100%;
+    }
+}

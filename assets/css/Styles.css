@@ -1,0 +1,42 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+ height: 82vh;
+ background-color:rgb(7, 193, 244); 
+ color:rgb(252, 11, 144); 
+ display:flex; 
+ flex-wrap: wrap;
+ justify-content:center;
+ align-content:center;
+ text-align:center;
+}
+
+.section-one{
+    background-color: rgb(224, 189, 145);
+    padding: 20px;
+    border: 10px rgb(236, 12, 12) double;
+    margin-bottom: 10px;
+}
+
+.section-two{
+    background-color: rgb(130, 14, 232);
+    border: 10px double;color: rgb(241, 242, 244);
+    border-bottom-color: black;
+    border-top-color: azure;
+    border-left-color: aqua;
+    border-right-color: blueviolet;
+}
+
+div{
+    background-color: rgb(16, 244, 126);
+    padding: 40px;
+    border-style:solid;
+    border-color: hsl(48, 95%, 50%);
+    border-width: 10px 20px 10px 15px;
+    margin: 1px;
+    margin-bottom: 10px;
+
+}
